@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'; // Импортируем файл стилей
-import CardList from './CardList'; // Импортируем компоненту CardList
+import CardList from '../src/components/CardList/CardList'; // Импортируем компоненту CardList
 
 function App() {
   return (
