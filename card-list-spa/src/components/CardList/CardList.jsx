@@ -11,7 +11,7 @@ const CardList = () => {
     // Функция для запроса данных из API
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://example-api.com/cards'); // Замените URL на реальный API
+        const response = await axios.get('https://anime-facts-rest-api.herokuapp.com/api/v1/:anime_name'); // Замените URL на реальный API
         setCards(response.data); // Сохраняем полученные данные в состоянии
       } catch (error) {
         console.error('Ошибка при получении данных из API:', error);
